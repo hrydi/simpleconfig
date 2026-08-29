@@ -7,7 +7,7 @@
 [![Go Version](https://img.shields.io/badge/go-1.24+-blue)](https://golang.org/dl/)
 [![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 
-**simpleconfig** is a minimal, type-safe TOML configuration loader with zero external dependencies beyond the TOML parser.
+**simpleconfig** is a minimal, type-safe TOML configuration loader with minimal dependencies — only the TOML parser (`go-toml/v2`).
 
 ```
 import "github.com/hrydi/simpleconfig"
